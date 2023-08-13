@@ -1,4 +1,5 @@
 import Dog from './Dog.tsx'
+import Subtitle from './Subtitle.tsx'
 
 function App() {
   return (
@@ -8,8 +9,13 @@ function App() {
         alt="a spinning paw-print"
         src="/images/paw.png"
       />
+      <Subtitle text="Canines using super-canine abilities to be the Best Bois." />
       <Dog name="Desdemona" breed="Bulldog" superpower="Heat vision" />
-      <Dog name="Compost Bucket" breed = "Misc" superpower="Accelated decomposition" />
+      <Dog
+        name="Compost Bucket"
+        breed="Misc"
+        superpower="Accelated decomposition"
+      />
     </div>
   )
 }
