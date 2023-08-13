@@ -11,11 +11,13 @@ function App() {
       />
       <Subtitle text="Canines using super-canine abilities to be the Best Bois." />
       <Dog name="Desdemona" breed="Bulldog" superpower="Heat vision" />
+      <img src="/images/bulldog.png" alt="A bulldog" />
       <Dog
         name="Compost Bucket"
-        breed="Misc"
+        breed="Dachshund"
         superpower="Accelated decomposition"
       />
+      <img src="/images/dachshund.png" alt="A hound" />
     </div>
   )
 }
