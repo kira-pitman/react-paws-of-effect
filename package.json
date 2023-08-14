@@ -5,7 +5,7 @@
   "description": "A 'first React app' tutorial/challenge",
   "main": "server/index.ts",
   "scripts": {
-    "dev": "vite", 
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "test": "vitest",
@@ -40,6 +40,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "jsdom": "^22.1.0",
     "prettier": "2.6.1",
     "react": "^18.0.2",
     "react-dom": "^18.2.0",

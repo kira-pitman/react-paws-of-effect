@@ -9,7 +9,7 @@ function Dog(props: Props) {
     <div className="dog-wrapper">
       <div className="dog">
         <div className="dog-name-plate">
-          <span className="dog-name">{props.name}</span>
+          <h3 className="dog-name">{props.name}</h3>
           <span className="dog-breed">{props.breed}</span>
         </div>
         <div className="dog-pic">

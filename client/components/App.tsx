@@ -10,7 +10,7 @@ const myDog = {
 const Patchie = {
   name: 'Patchie',
   breed: 'scottie',
-  superpower: 'Accelerated decomposition'
+  superpower: 'Accelerated decomposition',
 }
 
 function App() {
@@ -24,12 +24,7 @@ function App() {
       <Subtitle text="Canines using super-canine abilities to be the Best Bois." />
 
       <Dog {...myDog} />
-      <Dog {... Patchie}/>
-      {/* <Dog
-        name={myDog.name}
-        breed={myDog.breed}
-        superpower={myDog.superpower}
-      /> */}
+      <Dog {...Patchie} />
     </div>
   )
 }
