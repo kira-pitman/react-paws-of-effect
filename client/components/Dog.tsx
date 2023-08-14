@@ -12,6 +12,13 @@ function Dog(props: Props) {
           <span className="dog-name">{props.name}</span>
           <span className="dog-breed">{props.breed}</span>
         </div>
+        <div className="dog-pic">
+          <img
+            className="dog-img"
+            src={`/images/${props.breed.toLowerCase()}.png`}
+            alt={`${props.name}, a ${props.breed}`}
+          />
+        </div>
         <span className="dog-superpower">{props.superpower}</span>
       </div>
     </div>

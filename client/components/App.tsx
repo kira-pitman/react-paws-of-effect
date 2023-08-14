@@ -1,6 +1,18 @@
 import Dog from './Dog.tsx'
 import Subtitle from './Subtitle.tsx'
 
+const myDog = {
+  name: 'Desdemona',
+  breed: 'Bulldog',
+  superpower: 'Heat vision',
+}
+
+const Patchie = {
+  name: 'Patchie',
+  breed: 'scottie',
+  superpower: 'Accelerated decomposition'
+}
+
 function App() {
   return (
     <div className="container">
@@ -10,14 +22,14 @@ function App() {
         src="/images/paw.png"
       />
       <Subtitle text="Canines using super-canine abilities to be the Best Bois." />
-      <Dog name="Desdemona" breed="Bulldog" superpower="Heat vision" />
-      <img src="/images/bulldog.png" alt="A bulldog" />
-      <Dog
-        name="Compost Bucket"
-        breed="Dachshund"
-        superpower="Accelated decomposition"
-      />
-      <img src="/images/dachshund.png" alt="A hound" />
+
+      <Dog {...myDog} />
+      <Dog {... Patchie}/>
+      {/* <Dog
+        name={myDog.name}
+        breed={myDog.breed}
+        superpower={myDog.superpower}
+      /> */}
     </div>
   )
 }
