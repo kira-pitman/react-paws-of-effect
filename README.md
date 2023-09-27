@@ -1,5 +1,9 @@
 # Paws for Effect
 
+A challenge given in week 4 of Dev Academy Aotearoa bootcamp. This was focused on learning how to develop with React.
+
+# Instructions given for this challenge
+
 This challenge walks you through the basics of React development.
 
 Learning objectives:
